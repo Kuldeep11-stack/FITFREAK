@@ -28,9 +28,9 @@ const Navbar = () => {
       }
 
       {
-        showpopup && <h1>
-          <AuthPopup></AuthPopup>
-        </h1>
+        showpopup && 
+          <AuthPopup setShowpopup = {setShowpopup} />
+        
       }
 
     </nav>
